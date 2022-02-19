@@ -6,20 +6,35 @@ PC
 Anaconda - Python 3.7
 ## ALGORITHM: 
 ### Step 1:
+Open visual studio code.
 
-### Step 2: 
+### Step 2:
+ Create file with .py extension.
  
 ### Step 3: 
+Start the program.
 
-### Step 4:  
+### Step 4:
+Write the code.
 
-### Step 5: 
+### Step 5:
+Run terminal for output of the given program.
 
-### Step 6: 
+### Step 6:
+End the program.
+
 
 ## PROGRAM:
+num_words =0
+with open('text.txt','r') as file1:
+    for i in file1:
+        word =i.split()
+        num_words += len(word)
+print("Number of words={}".format(num_words))
 
 ### OUTPUT:
+![git log](ss1.png)
+![git log](ss2.png)
 
 
 
